@@ -1,0 +1,61 @@
+{
+  "name": "@sitearcade/stylelint-config",
+  "version": "0.0.0",
+  "description": "SiteArcade's stylelint configs.",
+  "license": "MIT",
+  "homepage": "https://sitearcade.com",
+  "repository": "github:sitearcade/stylelint-config",
+  "bugs": "https://github.com/sitearcade/stylelint-config/issues",
+  "author": {
+    "name": "Mike Stop Continues",
+    "email": "mike@sitearcade.com",
+    "url": "https://sitearcade.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postpublish": "git push origin --all; git push origin --tags",
+    "postversion": "npm publish --access public",
+    "preversion": "npm test",
+    "test": "echo 'Seems fine...'"
+  },
+  "dependencies": {
+    "stylelint": "^13.7.1",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-high-performance-animation": "^1.5.1",
+    "stylelint-media-use-custom-media": "^2.0.0",
+    "stylelint-no-unsupported-browser-features": "^4.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.11.6",
+    "@sitearcade/eslint-config": "0.2.2",
+    "babel-eslint": "11.0.0-beta.2",
+    "eslint": "7.9.0",
+    "eslint-import-resolver-lerna": "1.1.0",
+    "eslint-plugin-babel": "5.3.1",
+    "eslint-plugin-better-styled-components": "1.1.2",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-fp": "2.3.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jest": "24.0.2",
+    "eslint-plugin-jest-formatting": "2.0.0",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-lodash": "7.1.0",
+    "eslint-plugin-optimize-regex": "1.2.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-ramda": "2.5.1",
+    "eslint-plugin-react": "7.21.2",
+    "eslint-plugin-react-hooks": "4.1.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@sitearcade/eslint-config"
+    ]
+  }
+}
