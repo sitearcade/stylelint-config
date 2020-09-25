@@ -15,4 +15,6 @@ Our browserslist config.
 }
 ```
 
-That's it!
+## Variants
+
+For styled-component support, use `@sitearcade/stylelint-config/styled`.
