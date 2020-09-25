@@ -9,7 +9,7 @@ module.exports = {
     'at-rule-name-case': 'lower',
     'at-rule-name-newline-after': 'always-multi-line',
     'at-rule-name-space-after': 'always',
-    'at-rule-no-unknown': [true, {ignoreAtRules: ['lost']}],
+    'at-rule-no-unknown': [true, {ignoreAtRules: ['lost', 'tailwind']}],
     'at-rule-no-vendor-prefix': true,
     'at-rule-semicolon-newline-after': 'always',
     'at-rule-semicolon-space-before': 'never',
