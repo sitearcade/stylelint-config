@@ -19,21 +19,21 @@
     "test": "echo 'Seems fine...'"
   },
   "dependencies": {
-    "stylelint": "^13.9.0",
+    "stylelint": "^13.13.1",
     "stylelint-a11y": "^1.2.3",
-    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-high-performance-animation": "^1.5.2",
     "stylelint-media-use-custom-media": "^2.0.0",
-    "stylelint-no-unsupported-browser-features": "^4.1.4",
+    "stylelint-no-unsupported-browser-features": "^5.0.1",
     "stylelint-order": "^4.1.0",
     "stylelint-processor-styled-components": "^1.10.0"
   },
   "peerDependencies": {
-    "stylelint": "^13.9.0"
+    "stylelint": "^13.13.1"
   },
   "devDependencies": {
-    "@sitearcade/eslint-config": "0.3.0"
+    "@sitearcade/eslint-config": "1.6.2"
   },
   "eslintConfig": {
     "extends": [
