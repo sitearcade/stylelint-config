@@ -148,7 +148,7 @@ module.exports = {
     'selector-type-no-unknown': true,
     'shorthand-property-no-redundant-values': true,
     'string-no-newline': true,
-    'string-quotes': 'single',
+    'string-quotes': 'double',
     'time-min-milliseconds': null,
     'unit-blacklist': null,
     'unit-case': 'lower',
