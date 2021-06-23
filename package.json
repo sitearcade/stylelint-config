@@ -39,5 +39,8 @@
     "extends": [
       "@sitearcade/eslint-config"
     ]
+  },
+  "dependencies": {
+    "@sitearcade/stylelint-config": "0.2.1"
   }
 }
