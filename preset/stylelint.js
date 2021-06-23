@@ -14,14 +14,20 @@ module.exports = {
     'at-rule-semicolon-newline-after': 'always',
     'at-rule-semicolon-space-before': 'never',
     'at-rule-whitelist': null,
+
     'block-closing-brace-empty-line-before': 'never',
     'block-closing-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always-multi-line',
+    'block-closing-brace-space-after': 'never',
     'block-closing-brace-space-before': 'always-single-line',
+
     'block-no-empty': null,
+
     'block-opening-brace-newline-after': 'always-multi-line',
-    'block-opening-brace-space-after': null,
+    'block-opening-brace-newline-before': 'never',
+    'block-opening-brace-space-after': 'always-single-line',
     'block-opening-brace-space-before': 'always',
+
     'color-hex-case': 'lower',
     'color-hex-length': 'long',
     'color-named': 'never',
@@ -37,16 +43,20 @@ module.exports = {
     'declaration-block-no-duplicate-properties': true,
     'declaration-block-no-redundant-longhand-properties': null,
     'declaration-block-no-shorthand-property-overrides': null,
+
     'declaration-block-semicolon-newline-after': 'always-multi-line',
-    'declaration-block-semicolon-newline-before': 'never-multi-line',
+    'declaration-block-semicolon-newline-before': 'never',
     'declaration-block-semicolon-space-after': 'always-single-line',
     'declaration-block-semicolon-space-before': 'never',
+
     'declaration-block-single-line-max-declarations': 1,
     'declaration-block-trailing-semicolon': 'always',
+
     'declaration-colon-newline-after': 'always-multi-line',
     'declaration-colon-space-after': 'always-single-line',
     'declaration-colon-space-before': 'never',
     'declaration-empty-line-before': null,
+
     'declaration-no-important': null,
     'declaration-property-unit-blacklist': null,
     'declaration-property-unit-whitelist': null,
@@ -57,10 +67,12 @@ module.exports = {
     'font-weight-notation': 'numeric',
     'function-blacklist': null,
     'function-calc-no-unspaced-operator': true,
+
     'function-comma-newline-after': 'always-multi-line',
-    'function-comma-newline-before': 'never-multi-line',
+    'function-comma-newline-before': 'never',
     'function-comma-space-after': 'always-single-line',
     'function-comma-space-before': 'never',
+
     'function-linear-gradient-no-nonstandard-direction': true,
     'function-max-empty-lines': 0,
     'function-name-case': 'lower',
@@ -88,10 +100,12 @@ module.exports = {
     'media-feature-parentheses-space-inside': 'never',
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'always',
+
     'media-query-list-comma-newline-after': 'always-multi-line',
-    'media-query-list-comma-newline-before': 'never-multi-line',
+    'media-query-list-comma-newline-before': 'never',
     'media-query-list-comma-space-after': 'always-single-line',
     'media-query-list-comma-space-before': 'never',
+
     'no-descending-specificity': null,
     'no-duplicate-selectors': true,
     'no-empty-source': null,
@@ -120,10 +134,12 @@ module.exports = {
     'selector-combinator-space-before': 'always',
     'selector-descendant-combinator-no-non-space': true,
     'selector-id-pattern': null,
+
     'selector-list-comma-newline-after': 'always-multi-line',
-    'selector-list-comma-newline-before': 'never-multi-line',
+    'selector-list-comma-newline-before': 'never',
     'selector-list-comma-space-after': 'always-single-line',
     'selector-list-comma-space-before': 'never',
+
     'selector-max-attribute': 5,
     'selector-max-class': 5,
     'selector-max-combinators': 5,
@@ -155,10 +171,12 @@ module.exports = {
     'unit-no-unknown': true,
     'unit-whitelist': null,
     'value-keyword-case': null,
-    'value-list-comma-newline-after': 'never-multi-line',
-    'value-list-comma-newline-before': 'never-multi-line',
-    'value-list-comma-space-after': 'always',
+
+    'value-list-comma-newline-after': 'always-multi-line',
+    'value-list-comma-newline-before': 'never',
+    'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
+
     'value-list-max-empty-lines': 0,
     'value-no-vendor-prefix': true,
   },
