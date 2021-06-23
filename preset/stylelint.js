@@ -69,7 +69,7 @@ module.exports = {
     'function-calc-no-unspaced-operator': true,
 
     'function-comma-newline-after': 'always-multi-line',
-    'function-comma-newline-before': 'never',
+    'function-comma-newline-before': 'never-multi-line',
     'function-comma-space-after': 'always-single-line',
     'function-comma-space-before': 'never',
 
@@ -102,7 +102,7 @@ module.exports = {
     'media-feature-range-operator-space-before': 'always',
 
     'media-query-list-comma-newline-after': 'always-multi-line',
-    'media-query-list-comma-newline-before': 'never',
+    'media-query-list-comma-newline-before': 'never-multi-line',
     'media-query-list-comma-space-after': 'always-single-line',
     'media-query-list-comma-space-before': 'never',
 
@@ -136,7 +136,7 @@ module.exports = {
     'selector-id-pattern': null,
 
     'selector-list-comma-newline-after': 'always-multi-line',
-    'selector-list-comma-newline-before': 'never',
+    'selector-list-comma-newline-before': 'never-multi-line',
     'selector-list-comma-space-after': 'always-single-line',
     'selector-list-comma-space-before': 'never',
 
@@ -173,7 +173,7 @@ module.exports = {
     'value-keyword-case': null,
 
     'value-list-comma-newline-after': 'always-multi-line',
-    'value-list-comma-newline-before': 'never',
+    'value-list-comma-newline-before': 'never-multi-line',
     'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
 
