@@ -24,7 +24,7 @@ module.exports = {
     'block-no-empty': null,
 
     'block-opening-brace-newline-after': 'always-multi-line',
-    'block-opening-brace-newline-before': 'never',
+    'block-opening-brace-newline-before': 'never-multi-line',
     'block-opening-brace-space-after': 'always-single-line',
     'block-opening-brace-space-before': 'always',
 
