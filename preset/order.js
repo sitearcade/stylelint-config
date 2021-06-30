@@ -4,7 +4,6 @@ const orderBy = [
   'at-variables',
   'dollar-variables',
   'custom-properties',
-  'less-mixins',
   'declarations',
   'rules',
   'at-rules',

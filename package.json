@@ -41,6 +41,6 @@
     ]
   },
   "dependencies": {
-    "@sitearcade/stylelint-config": "0.2.1"
+    "@sitearcade/stylelint-config": "1.0.7"
   }
 }
