@@ -27,7 +27,7 @@
     "stylelint-processor-styled-components": "^1.10.0"
   },
   "devDependencies": {
-    "@sitearcade/eslint-config": "^1.7.1",
+    "@sitearcade/eslint-config": "^1.8.0",
     "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-styled-components": "^0.1.1",
@@ -39,8 +39,5 @@
     "extends": [
       "@sitearcade/eslint-config"
     ]
-  },
-  "dependencies": {
-    "@sitearcade/stylelint-config": "1.0.7"
   }
 }
