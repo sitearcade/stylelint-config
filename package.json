@@ -21,19 +21,15 @@
   "peerDependencies": {
     "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^5.0.0",
-    "stylelint-config-styled-components": "^0.1.1",
     "stylelint-high-performance-animation": "^1.5.2",
-    "stylelint-order": "^4.1.0",
-    "stylelint-processor-styled-components": "^1.10.0"
+    "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
     "@sitearcade/eslint-config": "^1.8.0",
     "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^5.0.0",
-    "stylelint-config-styled-components": "^0.1.1",
     "stylelint-high-performance-animation": "^1.5.2",
-    "stylelint-order": "^4.1.0",
-    "stylelint-processor-styled-components": "^1.10.0"
+    "stylelint-order": "^4.1.0"
   },
   "eslintConfig": {
     "extends": [
